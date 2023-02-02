@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-awscrt-feedstock/blob/main/LICENSE.txt)
 
-Summary: Type annotations for AWS awscrt 0.14.7 library
+Summary: Type annotations for AWS awscrt 0.16.4 library
 
 Development: https://github.com/youtype/types-awscrt
 
