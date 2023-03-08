@@ -1,13 +1,13 @@
-About types-awscrt
-==================
+About types-awscrt-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-awscrt-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/youtype/types-awscrt
 
 Package license: MIT
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/types-awscrt-feedstock/blob/main/LICENSE.txt)
-
-Summary: Type annotations for AWS awscrt 0.16.10 library
+Summary: Type annotations for AWS awscrt 0.16.11 library
 
 Development: https://github.com/youtype/types-awscrt
 
