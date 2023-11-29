@@ -7,7 +7,7 @@ Home: https://github.com/youtype/types-awscrt
 
 Package license: MIT
 
-Summary: Type annotations for AWS awscrt 0.19.17 library
+Summary: Type annotations for AWS awscrt 0.19.18 library
 
 Development: https://github.com/youtype/types-awscrt
 
