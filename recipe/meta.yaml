@@ -12,24 +12,25 @@ source:
   sha256: 405bce8c281f9e7c6c92a229225cc0bf10d30729a6a601123213389bd524b8b1
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
-    - python >=3.7,<4.0
+    - python {{ python_min }}
     - pip
     - poetry-core
     - setuptools
   run:
-    - python >=3.7,<4.0
+    - python >={{ python_min }},<4.0
     - pip
 
 test:
   requires:
     - pip
     - poetry
+    - python {{ python_min }}
   commands:
     - pip check
     - python -c "import importlib; importlib.import_module('awscrt-stubs')"
