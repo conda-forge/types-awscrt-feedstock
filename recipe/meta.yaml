@@ -1,5 +1,5 @@
 {% set name = "types-awscrt" %}
-{% set version = "0.23.9" %}
+{% set version = "0.23.10" %}
 {% set lib_version = version.split(".post")[0] %}
 
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 57ec68d45ef873458df7307ec80578a6334696f088549ab349c3d655e7e3562b
+  sha256: 965659260599b421564204b895467684104a2c0311bbacfd3c2423b8b0d3f3e9
 
 build:
   number: 0
