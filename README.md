@@ -7,7 +7,7 @@ Home: https://github.com/youtype/types-awscrt
 
 Package license: MIT
 
-Summary: Type annotations for AWS awscrt 0.31.3 library
+Summary: Type annotations for AWS awscrt 0.33.0 library
 
 Development: https://github.com/youtype/types-awscrt
 
@@ -15,10 +15,11 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=16879&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/types-awscrt-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/types-awscrt-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/types-awscrt-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
