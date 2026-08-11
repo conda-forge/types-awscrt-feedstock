@@ -12,7 +12,7 @@ source:
   sha256: c3f96854b63b749558087d20d7698e0cf39c9c8a3d7eb9c3f4bd0020c36bd865
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -24,12 +24,10 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }},<4.0
-    - pip
 
 test:
   requires:
     - pip
-    - poetry
     - python {{ python_min }}
   commands:
     - pip check
