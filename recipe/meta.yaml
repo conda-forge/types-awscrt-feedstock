@@ -12,7 +12,7 @@ source:
   sha256: 9bd66995d210acb8e92a70e0d1078752b0833a36bca73f088742bc3fd8a6b363
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -24,12 +24,10 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }},<4.0
-    - pip
 
 test:
   requires:
     - pip
-    - poetry
     - python {{ python_min }}
   commands:
     - pip check
@@ -45,3 +43,4 @@ about:
 extra:
   recipe-maintainers:
     - vemel
+    - xhochy
