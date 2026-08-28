@@ -191,4 +191,5 @@ Feedstock Maintainers
 =====================
 
 * [@vemel](https://github.com/vemel/)
+* [@xhochy](https://github.com/xhochy/)
 
